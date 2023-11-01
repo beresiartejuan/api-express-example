@@ -8,7 +8,6 @@ const InmuebleSchema = new Schema({
     alquilado: { type: Schema.Types.Boolean, default: false },
     nombre_del_propietario: { type: Schema.Types.String },
     email: { type: Schema.Types.String }
-
 }, {
     timeseries: false,
     timestamps: false,
